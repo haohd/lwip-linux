@@ -2,12 +2,13 @@
 This is a version of lwip running on Ubuntu
 
 1. Ubuntu Setup: Install libpcap-dev
-	sudo apt-get install libpcap-dev
+
+   sudo apt-get install libpcap-dev
 	
 2. Compile
-	Go to the folder ./Debug, then run:
-	
-	make clean; make 
+   Go to the folder ./Debug, then run:
+   
+   make clean; make 
 	
 3. Run tests: Must be run under root user 
 3.1 Echo server test 
