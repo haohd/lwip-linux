@@ -2,18 +2,20 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-# Add inputs and outputs from these tool invocations to the build variables 
+# Add inputs and outputs from these tool invocations to the build variables
 C_SRCS += \
 ../lwip-2.0.2/src/arch/if.c \
-../lwip-2.0.2/src/arch/netif.c 
+../lwip-2.0.2/src/arch/netif.c \
+../lwip-2.0.2/src/arch/pcap.c
 
 OBJS += \
 ./lwip-2.0.2/src/arch/if.o \
-./lwip-2.0.2/src/arch/netif.o 
+./lwip-2.0.2/src/arch/netif.o \
+./lwip-2.0.2/src/arch/pcap.o
 
 C_DEPS += \
 ./lwip-2.0.2/src/arch/if.d \
-./lwip-2.0.2/src/arch/netif.d 
+./lwip-2.0.2/src/arch/netif.d
 
 
 # Each subdirectory must supply rules for building sources it contributes

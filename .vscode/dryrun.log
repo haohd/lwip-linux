@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/haohoang/workspace/01-git/lwip-linux'
+make: Leaving directory `/Users/haohoang/workspace/01-git/lwip-linux'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
